@@ -1,0 +1,6 @@
+<div class="main">
+	<div class="tabbar">
+    	<div ng-repeat="p in panes" class="tab" ng-bind="p.title" ng-class="{tab_selected: p.selected}" ng-click="select(p)"></div>
+    </div>
+  	<div class="tab-content" ng-transclude></div>
+</div>
