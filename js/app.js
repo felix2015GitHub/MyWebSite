@@ -1,7 +1,8 @@
 (function(){
 
 	var PROJECT_NAME = "Felix`s Web Site",
-		FOOTER_STRING = "Felix Cheng 2016";
+		FOOTER_STRING = "Felix Cheng 2016",
+		TAB_POOL = ["首頁", "自我介紹", "工作經歷", "專案經驗"];
 
 	var app = angular.module('website', []);
 
@@ -21,9 +22,9 @@
                 };
 
                 this.addPane = function(pane) {
-                    if(pane.attr == "show"){
-                        $scope.select(pane);
-                    }
+                    if (panes.length === 0) {
+          				$scope.select(pane);
+        			}
                     panes.push(pane);
                 };
             }],
@@ -38,7 +39,7 @@
             transclude: true,
             scope: {
                 title: '@',
-                attr: '@'
+                hrefId: '@'
             },
             link: function(scope, element, attrs, tabsCtrl) {
                 tabsCtrl.addPane(scope);
@@ -52,6 +53,7 @@
 		var self = this;
 		self.projectName = PROJECT_NAME;
 		self.footerString = FOOTER_STRING;
+		self.tabPool = TAB_POOL;
 
 	});
 

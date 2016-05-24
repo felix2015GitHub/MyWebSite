@@ -1,6 +1,16 @@
-<div class="main">
+<!--<div class="main">
 	<div class="tabbar">
     	<div ng-repeat="p in panes" class="tab" ng-bind="p.title" ng-class="{tab_selected: p.selected}" ng-click="select(p)"></div>
     </div>
   	<div class="tab-content" ng-transclude></div>
+</div>-->
+
+<div id="navbar" class="collapse navbar-collapse">
+	<ul class="nav navbar-nav">
+    	<li ng-repeat="p in panes" ng-class="{active: p.selected}"><a ng-href="#{{p.hrefId}}" ng-bind="p.title"></a></li>
+    	<!--
+    	<li><a href="#about">About</a></li>
+    	<li><a href="#contact">Contact</a></li>
+    	-->
+    </ul>
 </div>
