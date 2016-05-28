@@ -10,6 +10,6 @@
         var vm = this;
         vm.$state = $state;
         vm.projectTitle = "Felix`s Web Site";
-        console.log("123");
+        vm.footerInfo = "Felix Made 2016"
     }
 })();
