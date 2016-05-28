@@ -4,7 +4,7 @@
   angular
     .module('website')
     .config(routerConfig)
-    //.run(routeRun);
+    .run(routeRun);
 
     function routerConfig($stateProvider, $urlRouterProvider) {
 
@@ -14,7 +14,18 @@
 	            templateUrl: 'views/main.html',
 	            controller: 'MainController',
 	            controllerAs: 'vm',
+                redirectTo: 'main.home'
 	        })
+            .state('main.home', {
+                url: 'home',
+                views: {
+                    'main@main': {
+                        controller: 'HomeController',
+                        controllerAs: 'vm',
+                        templateUrl: 'views/content/home.html'
+                    }
+                }
+            })
             .state('main.about', {
                 url: 'about',
                 views: {
@@ -59,9 +70,12 @@
 
     }
 
-    function routeRun($rootScope, $urlRouter, $cookies, $state, $q) {
-        $rootScope.$on('$stateChangeStart', function(event, toState, toParams, fromState, fromParams) {
-            event.preventDefault();
+    function routeRun($rootScope, $state) {
+        $rootScope.$on('$stateChangeStart', function(evt, to, params) {
+            if(to.redirectTo) {
+                evt.preventDefault();
+                $state.go(to.redirectTo, params, {location: 'replace'})
+            }
         });
     }
 
