@@ -15,6 +15,46 @@
 	            controller: 'MainController',
 	            controllerAs: 'vm',
 	        })
+            .state('main.about', {
+                url: 'about',
+                views: {
+                    'main@main': {
+                        controller: 'AboutController',
+                        controllerAs: 'vm',
+                        templateUrl: 'views/content/about.html'
+                    }
+                }
+            })
+            .state('main.work', {
+                url: 'work',
+                views: {
+                    'main@main': {
+                        controllerAs: 'vm',
+                        controller: 'WorkController',
+                        templateUrl: 'views/content/work.html'
+                    }
+                }
+            })
+            .state('main.project', {
+                url: 'project',
+                views: {
+                    'main@main': {
+                        controller: 'ProjectController',
+                        controllerAs: 'vm',
+                        templateUrl: 'views/content/project.html'
+                    }
+                }
+            })
+            .state('main.collections', {
+                url: 'collections',
+                views: {
+                    'main@main': {
+                        controller: 'CollectionsController',
+                        controllerAs: 'vm',
+                        templateUrl: 'views/content/collections.html'
+                    }
+                }
+            })
     	$urlRouterProvider.otherwise('/');
 
     }
