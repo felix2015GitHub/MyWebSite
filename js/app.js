@@ -2,9 +2,9 @@
 
 	var PROJECT_NAME = "Felix`s Web Site",
 		FOOTER_STRING = "Felix Cheng 2016",
-		TAB_POOL = ["首頁", "自我介紹", "工作經歷", "專案經驗"];
+		TAB_POOL = ["首頁", "自我介紹", "工作經歷", "專案經驗", "個人作品"];
 
-	var app = angular.module('website', []);
+	var app = angular.module('website', ['ui.router']);
 
 	app.directive('myTabs', function(){
         return {
