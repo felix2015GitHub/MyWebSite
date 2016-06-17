@@ -1,12 +1,13 @@
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-color: #FFFFFF;
 }
 
 .navbar {
@@ -16,14 +17,14 @@ body {
 }
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #222;
-  border-color: #080808;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #222;
+    border-color: #080808;
 }
 
 
@@ -32,14 +33,14 @@ body {
 /* Not required for template or sticky footer method. */
 
 body > .container {
-  padding: 60px 15px 0;
+    padding: 60px 15px 0;
 }
 .container .text-muted {
-  margin: 20px 0;
+    margin: 20px 0;
 }
 
 .text-muted {
-  color: white;
+    color: white;
 }
 
 .main {
@@ -60,16 +61,26 @@ body > .container {
 }
 
 .footer > .container {
-  padding-right: 15px;
-  padding-left: 15px;
-  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
 }
 
 code {
-  font-size: 80%;
+    font-size: 80%;
 }
 
 .text-center {
     text-align: center;
+}
+
+.text-title {
+    text-decoration: underline;
+}
+
+.frame {
+    border: 1px solid;
+    border-color: gray;
+    border-radius: 10px;
 }
