@@ -1,6 +1,6 @@
 ### *Felix Cheng*
 
-![alt text](../img/profile.jpg "Felix")
+![alt text](../../img/profile.jpg "Felix")
 
 #### Asia university ( 2007 - 2010 )
 ##### Computer Science and Information Engineering, Master's degree
