@@ -1,5 +1,5 @@
-### Front-ent Develop :
-#### *JavaScript、AngularJS、JQuery、HTML、CSS*
+### Front-end Develop :
+#### *JavaScript、AngularJS(on this web site)、JQuery、HTML、CSS*
 
 ***
 
