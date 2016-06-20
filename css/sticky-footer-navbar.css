@@ -10,6 +10,10 @@ body {
     background-color: #FFFFFF;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .navbar {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
@@ -80,6 +84,7 @@ code {
 }
 
 .frame {
+    padding: 20px;
     background-color: #D0D0D0;
     border: 1px solid;
     border-color: gray;
@@ -87,5 +92,5 @@ code {
 }
 
 .frame_static {
-    height: 600px;
+    height: 550px;
 }
