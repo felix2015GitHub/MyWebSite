@@ -1,6 +1,9 @@
 ### 
-### JavaScript Engineer
+### 伈創資訊 StntronTech Information (2016.04 ~ NOW)
+#### *Taipei, Taiwan*
 ***
+### JavaScript Engineer
+### 
 ### Project : **心健康管理平台**
 ### 
 #### - Front-end (AngularJS、Bootstrap)
