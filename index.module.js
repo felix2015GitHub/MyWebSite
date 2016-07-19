@@ -1,5 +1,5 @@
 (function() {
   'use strict';
   angular
-  	.module('website', ['ui.router', 'ui.bootstrap', 'ngSanitize', 'btford.markdown']);
+  	.module('website', ['ui.router', 'ui.bootstrap', 'ngSanitize', 'btford.markdown', 'nvd3']);
 })();

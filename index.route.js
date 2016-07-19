@@ -46,13 +46,13 @@
                     }
                 }
             })
-            .state('main.project', {
-                url: 'project',
+            .state('main.travelMap', {
+                url: 'travelMap',
                 views: {
                     'main@main': {
-                        controller: 'ProjectController',
+                        controller: 'TravelMapController',
                         controllerAs: 'vm',
-                        templateUrl: 'views/content/project.html'
+                        templateUrl: 'views/content/travelMap.html'
                     }
                 }
             })

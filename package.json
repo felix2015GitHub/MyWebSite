@@ -18,5 +18,8 @@
     "url": "git+https://github.com/felix2015GitHub/MyWebSite.git"
   },
   "author": "Felix",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "d3": "^4.1.1"
+  }
 }
