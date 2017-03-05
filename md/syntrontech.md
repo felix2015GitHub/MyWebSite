@@ -1,5 +1,5 @@
 ### 
-### 伈創資訊 StntronTech Information (2016.04 ~ NOW)
+### 伈創資訊 StntronTech Information (2016.04 ~ 2016.10)
 #### *Taipei, Taiwan*
 ***
 ### JavaScript Engineer
