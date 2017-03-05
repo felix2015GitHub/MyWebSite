@@ -13,4 +13,6 @@
 #### Osaka, Japan (2014.07)
 #### Kyoto, Japan (2015.02)
 #### Czech Republic (2016.04)
+#### Hokkaido, Japan (2017.02)
+#### Tokyo, Japan (2017.04)
 #### What`s the next destination ??

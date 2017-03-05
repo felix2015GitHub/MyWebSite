@@ -1,5 +1,5 @@
 ### Front-end Develop :
-#### *JavaScript、AngularJS(on this web site)、JQuery、HTML、CSS*
+#### *JavaScript、AngularJS 1.X(on this web site)、ReactJS、BackboneJS、JQuery、HTML、CSS*
 
 ***
 
@@ -9,7 +9,7 @@
 ***
 
 ### OS :
-#### *Linux*
+#### *Linux、MacOS、Windows*
 
 ***
 
